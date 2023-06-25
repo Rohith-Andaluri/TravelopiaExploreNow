@@ -1,0 +1,72 @@
+.admin-main-container {
+    background-image: url('https://res.cloudinary.com/drvfh1ajc/image/upload/v1687683649/pexels-walid-ahmad-847402_btuqem.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+.table-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 50px;
+}
+.table-container {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #e2dac2;
+  }
+  
+  table.table-container th,
+  table.table-container td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  .no-data-heading {
+    color: #e2dac2;
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+  }
+  .desc {
+    color: #e2dac2;
+    font-size: 24px;
+    font-family: sans-serif;
+  }
+  .no-data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-button {
+    background-color: #e2dac2;
+    border: 2px solid #e2dac2;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-transform: none;
+    
+  }
+  
+  .home-button:hover,
+  .home-button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #e2dac2;
+  }
+  
+  .home-button:active {
+    opacity: 0.5;
+  }
